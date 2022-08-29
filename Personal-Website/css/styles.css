@@ -1,0 +1,185 @@
+/* COLORS */
+/* #2f5d62
+#5e8b7e
+#a7c4bc
+#DFEEEA */
+
+section {
+    margin: 5%;
+    padding: 3% 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #DFEEEA;
+    background-color: #2f5d62;
+}
+
+.titles {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 0 3rem 1rem 1rem;
+}
+
+.nav-item {
+    padding: 0 7px;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #DFEEEA;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* LANDING PAGE */
+
+.titletext {
+    padding-top: 7.5rem;
+}
+
+.home-image {
+    width: 70%;
+    border-radius: 100%;
+}
+
+span {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+/* About Me */
+
+#about-me {
+    background-color: #fff;
+    color: #2f5d62;
+    margin: 0;
+    font-weight: bold;
+}
+
+.about-text {
+    width: 70%;
+    font-size: 18px;
+    margin: auto;
+    color: #5e8b7e;
+    padding-top: 3rem;
+}
+
+.row {
+    margin: 0 5rem;
+}
+
+.figure {
+    /* width: 20%; */
+    margin: 5rem 2rem;
+}
+
+/* HOBBIES */
+
+.hobbypic {
+    position: relative;
+    width: 20%;
+    border-radius: 100%;
+    margin-top: 4rem;
+}
+
+.hobbyText {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.hobbyName {
+    padding: 2rem 0 1rem;
+}
+
+/* SKILLS */
+
+#skills {
+    background-color: #fff;
+    color: #2f5d62;
+    margin: 0;
+}
+
+.mySkills {
+    width: 80%;
+    margin: 50px auto 70px auto;
+}
+
+.skillImageLeft {
+    float: left;
+    width: 15%;
+    margin: 0 3rem;
+}
+
+.skillImageRight {
+    float: right;
+    width: 15%;
+    margin: 0 3rem;
+}
+
+.skillText {
+    text-align: left;
+    width: 70%;
+}
+
+.skillright {
+    text-align: right;
+    margin: auto;
+}
+
+/* CONTACT */
+
+#contact {
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #fff;
+    margin: 0;
+    color: #2f5d62;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.ficon {
+    margin: 40px 5px;
+}
+
+.footer-link {
+    margin: 0 2rem;
+}
+
+/* CONTACT BUTTON */
+
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #DFEEEA;
+    font-size: 20px;
+    background: #5e8b7e;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 4rem;
+    margin-top: 40px;
+  }
+  
+  .btn:hover {
+    background: #a7c4bc;
+    text-decoration: none;
+  }

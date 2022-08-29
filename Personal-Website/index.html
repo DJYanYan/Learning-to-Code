@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0e88ab75b9.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Yan-Yan's Personal Website</title>
+</head>
+
+<body>
+    
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg nav-light">
+        <div class="container-fluid">
+            <a class="navbar-brand titles" href="#">DJYanYan</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- LANDING PAGE -->
+
+    <section id="title">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="titletext">I'm <span>Yan-Yan</span> <br> an aspiring developer</h1>
+            </div>
+
+            <div class="col-lg-6"> 
+                <img class="home-image img-thumbnail" src="images/yanyan.jpg" alt="This is Me!">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+
+    <section id="about-me">
+        <h1 class="titles">ABOUT ME</h1>
+        <p class="about-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet auctor diam, pulvinar laoreet orci interdum sit amet. Fusce pharetra dolor sapien, sit amet hendrerit nisl tristique et. Sed laoreet porta laoreet. Nullam pulvinar, leo in laoreet ultricies, lacus turpis ultricies mi, quis feugiat diam nisl sit amet lorem.
+        </p>
+
+    <div class="row">
+
+        <div class="col-lg-4">
+            <figure class="figure">
+                <img class="figure-img img-fluid rounded" src="images/image1.jpg" alt="Image 1">
+                <figcaption class="figure-caption text-center">This is me!</figcaption>
+            </figure>
+        </div>
+
+        <div class="col-lg-4">
+            <figure class="figure">
+                <img class="figure-img img-fluid rounded" src="images/image2.jpg" alt="Image 2">
+                <figcaption class="figure-caption text-center">This is me!</figcaption>
+            </figure>
+        </div>
+
+        <div class="col-lg-4">
+            <figure class="figure">
+                <img class="figure-img img-fluid rounded" src="images/image3.jpg" alt="Image 3">
+                <figcaption class="figure-caption text-center">This is me!</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- HOBBIES -->
+
+    <section id="hobbies">
+
+    <h1 class="titles">Hobbies</h1>
+
+    <div class="carousel slide" id="hobby-carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="hobbypic" src="images/freedive.jpg" alt="Freediving">
+                <h2 class="hobbyName">Freediving</h2>
+                <p class="hobbyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet auctor diam, pulvinar laoreet orci interdum sit amet. Fusce pharetra dolor sapien, sit amet hendrerit nisl tristique et.</p>
+            </div>
+            <div class="carousel-item">
+                <img class="hobbypic" src="images/gym.jpg" alt="Gym">
+                <h2 class="hobbyName">Gym</h2>
+                <p class="hobbyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet auctor diam, pulvinar laoreet orci interdum sit amet. Fusce pharetra dolor sapien, sit amet hendrerit nisl tristique et.</p>
+            </div>
+            <div class="carousel-item">
+                <img class="hobbypic" src="images/kayak.jpg" alt="Kayaking">
+                <h2 class="hobbyName">Kayaking</h2>
+                <p class="hobbyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet auctor diam, pulvinar laoreet orci interdum sit amet. Fusce pharetra dolor sapien, sit amet hendrerit nisl tristique et.</p>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#hobby-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hobby-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+    <h1 class="titles">Skills</h1>
+
+    <div class="mySkills">
+    <img class="skillImageLeft" src="images/code.png" alt="Coding">
+    <h2 class="skillText">Coding</h2>
+    <p class="skillText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet auctor diam, pulvinar laoreet orci interdum sit amet. Fusce pharetra dolor sapien, sit amet hendrerit nisl tristique et.</p>
+    </div>
+
+    <div class="mySkills">
+    <img class="skillImageRight" src="images/technical.png" alt="Technical Knowledge">
+    <h2 class="skillText skillright">Technical Knowledge</h2>
+    <p class="skillText skillright">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet auctor diam, pulvinar laoreet orci interdum sit amet. Fusce pharetra dolor sapien, sit amet hendrerit nisl tristique et.</p>
+    </div>
+
+    <div class="mySkills">
+    <img class="skillImageLeft" src="images/group.png" alt="Communication">
+    <h2 class="skillText">Commnication</h2>
+    <p class="skillText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet auctor diam, pulvinar laoreet orci interdum sit amet. Fusce pharetra dolor sapien, sit amet hendrerit nisl tristique et.</p>
+
+    </div>
+
+    </section>
+
+    <!-- CONTACT  -->
+
+    <section id="contact">
+
+    <h1 class="titles">Let's get in touch</h1>
+    <h3>I can help you with your developing needs.</h3>
+    <a class="btn" href="mailto:dj.ralphyan@gmail.com">CONTACT ME!</a>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <section id="footer">
+
+    <div class="bottom">
+        <a class="footer-link" href="https://www.facebook.com/TheDJYanYan"><i class="ficon fa-brands fa-facebook"></i> Facebook</a>
+        <a class="footer-link" href="https://www.instagram.com/thedjyanyan/"><i class="ficon fa-brands fa-instagram"></i> Instagram</a>
+        <a class="footer-link" href="https://github.com/DJYanYan"><i class="ficon fa-brands fa-github"></i> Github</a>
+        <p class="copyright">©2022 Ralph Christian De Jesus</p>
+    </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
